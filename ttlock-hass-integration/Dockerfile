@@ -1,7 +1,8 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+# HA Supervisor 2026.04+ no longer passes BUILD_FROM; use an explicit base image.
+# https://developers.home-assistant.io/blog/2026/04/02/builder-migration/
+FROM ghcr.io/home-assistant/base:3.21
 
-ENV LANG C.UTF-8
+ENV LANG=C.UTF-8
 
 RUN apk update
 RUN apk add --no-cache nodejs npm python3 py3-pip alpine-sdk libcap bluez bluez-dev eudev-dev
