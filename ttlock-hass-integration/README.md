@@ -1,6 +1,6 @@
 # Home Assistant Add-on TTLock
 
-> This is a **WORK IN PROGRESS**. Help with testing and report bugs [here](https://github.com/kind3r/hass-addons/issues).
+> This is a **WORK IN PROGRESS**. Help with testing and report bugs [here](https://github.com/jholovacs/hass-addons/issues).
 
 Feeling generous and want to support my work, here is [my PayPal link](https://paypal.me/kind3r).
 
